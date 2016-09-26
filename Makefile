@@ -1,5 +1,5 @@
 sockstress: sockstress.c
-	gcc -Wall -c sockstress.c
+	gcc -g -Wall -c sockstress.c
 	gcc -pthread -o sockstress sockstress.o
 
 clean:
